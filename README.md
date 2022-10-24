@@ -1,80 +1,80 @@
-English | [中文](./README.zh-CN.md)
+English | [中文](./README.zh-CN.md) | Türkçe(./README.tr-TR.md)
 
 ![](https://nocobase.oss-cn-beijing.aliyuncs.com/bbcedd403d31cd1ccc4e9709581f5c2f.png)  
 
-**Note:** 📌
+**Not:** 📌
 
-NocoBase is in early stage of development and is subject to frequent changes, please use caution in production environments.
+NocoBase, geliştirmenin ilk aşamasındadır ve sık sık değişiklik yaparak geliştiriyoruz. Lütfen üretim ortamlarında dikkatli olun.
 
-## We are hiring
+## Çalışma arkadaşımız olabilirsiniz
 
-We are looking for full-time, remote product design and development colleagues to join the team. If you have a strong interest in NocoBase, please feel free to email us at hello@nocobase.com.
+Takıma katılacak tam zamanlı, uzaktan ürün tasarımı ve geliştirme arkadaşları arıyoruz. NocoBase'e güçlü bir ilginiz varsa, lütfen bize hello@nocobase.com adresinden e-posta göndermekten çekinmeyin.
 
-## What is NocoBase
+## NocoBase Nedir?
 
-NocoBase is a scalability-first, open-source no-code development platform. No programming required, build your own collaboration platform, management system with NocoBase in minutes.
+NocoBase, ölçeklenebilirlik öncelikli, açık kaynaklı, kod yazmadan geliştirme yapabileceğiniz bir platformudur. Programlama gerekmez, dakikalar içinde NocoBase ile kendi yönetim sisteminizi oluşturun.
 
-Homepage:  
+Anasayfa:  
 https://www.nocobase.com/  
 
-Online Demo:  
+Canlı Test:  
 https://demo.nocobase.com/new
 
-Documents:  
+Dökümanlar:  
 https://docs.nocobase.com/
 
 
-Contact Us:  
+İletişim:  
 hello@nocobase.com
 
-## Who is NocoBase for
+## NocoBase kimin içindir
 
-NocoBase is designed for you if you have the following needs.
+Aşağıdaki ihtiyaçlarınız varsa NocoBase sizin için tasarlanmıştır.
 
-- Develop an internal management system
-- Meet most of your business needs with no-code development
-- No-code development is simple enough for non-developers; flexible enough to be close to native development
-- Can be very easy to extend
-- Private deployment with full control of code and data
-- Free to use or pay for more technical support
+- Bir iç yönetim sistemi geliştirmek istiyorsanız
+- Kodsuz geliştirme ile iş ihtiyaçlarınızın çoğunu karşılamak istiyorsanız
+- Kodsuz geliştirme, geliştirici olmayanlar için yeterince basittir; yerel gelişime yakın olacak kadar esnek
+- Sisteminizi kolay bir şekilde sürekli geliştirebilirsiniz
+- Tam kod ve veri kontrolü ile özel dağıtım
+- Ücretsiz kullanabilirsiniz veya daha fazla teknik destek için ödeme yapabilirsiniz
 
-## Why NocoBase is different
+## NocoBase neden farklıdır?
 
-### 1. Separate "data structure" and "user interface"
+### 1. Ayrı "veri yapısı" ve "kullanıcı arayüzü"
 
-Most form-, table-, or process-driven codeless products create data structures directly in the user interface, such as Airtable, where adding a new column to a table is adding a new field. This has the advantage of simplicity of use, but the disadvantage of limited functionality and flexibility to meet the needs of more complex scenarios.
+Çoğu kodsuz(nocode) uygulamalar form, tablo veya süreç odaklıdır. bir tabloya yeni bir sütun eklemenin yeni bir alan eklemek anlamına geldiği Airtable gibi doğrudan kullanıcı arabiriminde veri yapıları oluşturur. Bu, kullanım kolaylığı avantajına sahiptir fakat daha karmaşık senaryoların ihtiyaçlarını karşılamak için sınırlı işlevsellik ve esneklik dezavantajına sahiptir.
 
-NocoBase adopts the design idea of separating the data structure from the user interface, allowing you to create any number of blocks (data views) for the data collections, with different type, styles, content, and actions in each block. This takes into account the simplicity of codeless operation, but also the flexibility like native development.
+NocoBase, veri yapısını kullanıcı arayüzünden ayırma tasarım fikrini benimser ve her blokta farklı tür, stil, içerik ve eylemlerle veri koleksiyonları için istediğiniz sayıda blok (veri görünümü) oluşturmanıza olanak tanır. Bu yapısal durum kodsuz işlemin basitliğini ve aynı zamanda yerel geliştirme gibi esnekliği de hesaba katar.
 
 
 ![2.collection-block.png](https://docs.nocobase.com/static/2.collection-block.7dcc928f.png)
 
-### 2. Integrate "system configuration" and "system use"
+### 2. "Sistem yapılandırmasını" ve "sistem kullanımını" entegre edin
 
-NocoBase enables the development of complex and distinctive business systems, but this does not mean that complex and specialized operations are required. With a single click, configuration options can be displayed on the usage interface, which means that administrators with system configuration rights can configure the user interface directly with WYSIWYG operations.
+NocoBase, karmaşık ve farklı iş sistemlerinin geliştirilmesine olanak tanır, ancak bu karmaşık ve özel operasyonların gerekli olduğu anlamına gelmez. Tek bir tıklama ile kullanım arayüzünde yapılandırma seçenekleri görüntülenebilir. Bu da sistem yapılandırma haklarına sahip yöneticilerin kullanıcı arayüzünü doğrudan WYSIWYG işlemleri ile yapılandırılabileceği anlamına gelir.
 
 ![2.user-root.gif](https://docs.nocobase.com/static/2.user-root.824f5ef2.gif)
 
-### 3. Everything is a plugin
+### 3. Her şey bir eklenti
 
-NocoBase adopts plugin architecture, all new features can be implemented by developing and installing plugins. In the future, we will build a plug-in marketplace where extending functionality is as easy as installing an APP on your phone.
+NocoBase eklenti mimarisini benimser, tüm yeni özellikler eklentiler geliştirip yükleyerek uygulanabilir. Gelecekte, işlevselliği genişletmenin telefonunuza bir uygulama yüklemek kadar kolay olduğu bir eklenti pazarı oluşturacağız.
 
 ![](https://www.nocobase.com/images/NocoBaseMindMapLite.png)
 
-[Click to view the full image](https://www.nocobase.com/images/NocoBaseMindMap.png)
+[Tam resmi görmek için tıklayın](https://www.nocobase.com/images/NocoBaseMindMap.png)
 
-## Installation
+## Kurulum
 
-NocoBase supports three installation methods:
+NocoBase üç kurulum modelini destekler:
 
-- <a target="_blank" href="https://docs.nocobase.com/getting-started/installation/docker-compose">Installing With Docker (👍Recommended)</a>
+- <a target="_blank" href="https://docs.nocobase.com/getting-started/installation/docker-compose">Docker kurulumu (👍Tavsiye edilen)</a>
 
-  Suitable for no-code scenarios, no code to write. When upgrading, just download the latest image and reboot.
+  Kodsuz senaryolar için uygundur, yazılacak kod yoktur. Yükseltme yaparken, sadece en son görüntüyü indirin ve yeniden başlatın.
 
-- <a target="_blank" href="https://docs.nocobase.com/getting-started/installation/create-nocobase-app">Installing from create-nocobase-app CLI</a>
+- <a target="_blank" href="https://docs.nocobase.com/getting-started/installation/create-nocobase-app">create-nocobase-app CLI ile kurulum</a>
 
-  The business code of the project is completely independent and supports low-code development.
+  Projenin iş kodu tamamen bağımsızdır ve düşük kod geliştirmeyi destekler.
 
-- <a target="_blank" href="https://docs.nocobase.com/getting-started/installation/git-clone">Installing from Git source code</a>
+- <a target="_blank" href="https://docs.nocobase.com/getting-started/installation/git-clone">Git kaynak kodlarından derleme</a>
 
-  If you want to experience the latest unreleased version, or want to participate in the contribution, you need to make changes and debug on the source code, it is recommended to choose this installation method, which requires a high level of development skills, and if the code has been updated, you can git pull the latest code.
+  Yayınlanmamış en son sürümü deneyimlemek veya katkıda bulunmak istiyorsanız, kaynak kodunda değişiklik yapmanız ve hata ayıklamanız gerekiyorsa, yüksek düzeyde geliştirme becerisi gerektiren bu kurulum yöntemini seçmeniz önerilir. Eğer kodlar güncellendiyse git pull ile son sürümü çekebilirsiniz.
